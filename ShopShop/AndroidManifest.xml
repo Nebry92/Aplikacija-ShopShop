@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.fer.tel.ruazosa.shopshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dropbox.sync.android.DbxAuthActivity" />
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <data android:scheme="db-jrdtwl5wsibu5rp" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.dropbox.sync.android.DbxSyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Dropbox Sync" />
+
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.NewList"
+            android:label="@string/new_list" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.Settings"
+            android:label="@string/settings" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.EditListItems"
+            android:label="@string/title_activity_edit_list_items" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.AddItem"
+            android:label="@string/add_item_to_list" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.EditItem"
+            android:label="@string/title_activity_edit_item" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.EditList"
+            android:label="@string/editList" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.DropboxConnect"
+            android:label="@string/dbxConnect" >
+        </activity>
+        <activity
+            android:name="hr.fer.tel.ruazosa.shopshop.DropboxSyncService"
+            android:label="@string/title_activity_dropbox_sync_service" >
+        </activity>
+        <service android:name="DropboxSyncService"></service>
+    </application>
+
+</manifest>

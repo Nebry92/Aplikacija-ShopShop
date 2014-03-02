@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/newListMenuItem" 
+        android:title="@string/new_list"></item>
+    <item android:id="@+id/dropbox" android:title="@string/dbxConnect"></item><item android:id="@+id/refresh" android:title="@string/refresh"></item><item android:id="@+id/deleteAllLists" android:title="@string/deleteAll"></item><item android:id="@+id/settingsMenuItem" android:title="@string/settings"></item>
+    <item android:id="@+id/exitMenuItem" android:title="@string/exit"></item>
+    
+    
+    "
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="@dimen/activity_horizontal_margin"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin" >
+	
+	    <TextView
+	        android:id="@+id/dbxMsg2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/edit_name" />
+	
+	    <EditText
+	        android:id="@+id/editItemOnList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/dbxMsg2"
+	        android:layout_below="@+id/dbxMsg2"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin"
+	        android:ems="10"
+	        android:inputType="text" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/dbxMsg1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/editItemOnList"
+	        android:layout_below="@+id/editItemOnList"
+	        android:text="@string/edit_amount"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <EditText
+	        android:id="@+id/editAmountOnList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/dbxMsg1"
+	        android:layout_below="@+id/dbxMsg1"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin"
+	        android:ems="10"
+	        android:inputType="text|number" />
+
+	    <Button
+	        android:id="@+id/editItemButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/editAmountOnList"
+	        android:layout_below="@+id/editAmountOnList"
+	        android:text="@string/edit_item" />
+	
+	</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShopShop</string>
+    <string name="new_list">New List</string>
+    <string name="username">Username</string>
+    <string name="username_summary">Dropbox username</string>
+    <string name="password">Password</string>
+    <string name="password_summary">Dropbox password</string>
+    <string name="checkbox_sync_text">Sync with Dropbox</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="listName">List name: </string>
+    <string name="createList">Create list</string>
+    <string name="listColor">List color:</string>
+    <string name="title_activity_edit_list_items">List</string>
+    <string name="action_settings">Settings</string>
+    <string name="shoppingLists">All lists</string>
+    <string name="enterListName">Enter list name</string>
+    <string name="setColor">Set Color</string>
+    <string name="syncPeriod">Sync Period</string>
+    <string name="dbxSyncSettings">Dropbox sync settings</string>
+    <string name="pref_sync_frequency">Sync Frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="createdAt">"Created at: "</string>
+    <string name="add_item_to_list">Add Item</string>
+    <string name="remove_item_from_list">remove_item_from_list</string>
+    <string name="title_activity_add_item">Add Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_amount">Count</string>
+    <string name="item_unit">Unit</string>
+    <string name="create_item">Create Item</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_amount">Edit Count</string>
+    <string name="edit_unit">Edit Unit</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="delete_list">Delete List</string>
+    <string name="markDone">Mark Done</string>
+    <string name="markUndone">Undone</string>
+    <string name="editList">Edit List</string>
+    <string name="dbxConnect">Dropbox Sync</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="dbxMsg1">Share your lists between different devices.</string>
+    <string name="dbxMsg2">Share lists between multiple Dropbox accounts.</string>
+    <string name="dbxMsg3">" - Sign in with the same Dropbox account on both devices."</string>
+    <string name="dbxMsg4">- Share your ShopShop folder with another Dropbox user.</string>
+    <string name="title_activity_dropbox_sync_service">DropboxSyncService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dbx">Synchronize your lists with Dropbox!</string>
+    <string name="deleteAll">Delete all lists</string>
+    <string name="refresh">Refresh Lists</string>
+    <string name="refreshItems">Refresh Items</string>
+    <string name="cleanList">Clean List</string>
+
+</resources>

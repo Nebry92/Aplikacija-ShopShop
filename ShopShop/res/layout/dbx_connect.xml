@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout
+	    android:id="@+id/RelativeLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout
+	        android:id="@+id/dbxMessages"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_margin="@dimen/activity_horizontal_margin"
+	            android:gravity="center_horizontal"
+	            android:text="@string/dbx"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	        <TextView
+	            android:id="@+id/dbxMsg1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	            android:layout_marginTop="@dimen/activity_horizontal_margin"
+	            android:text="@string/dbxMsg1"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	            android:text="@string/dbxMsg3"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/dbxMsg2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	            android:layout_marginTop="@dimen/activity_horizontal_margin"
+	            android:text="@string/dbxMsg2"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	            android:text="@string/dbxMsg4"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    </LinearLayout>
+
+	    <TextView
+	        android:id="@+id/linkId"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="false"
+	        android:layout_below="@+id/syncBtn"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center_horizontal"
+	        android:text="linkedId" />
+	
+	    <Button
+	        android:id="@+id/linkToDbxBtn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="false"
+	        android:layout_below="@+id/dbxMessages"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerInParent="false"
+	        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+	        android:layout_marginLeft="@dimen/LinkWithDbxMargin"
+	        android:layout_marginRight="@dimen/LinkWithDbxMargin"
+	        android:layout_marginTop="@dimen/LinkWithDbxMargin" />
+	
+	    <Button
+	        android:id="@+id/syncBtn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="false"
+	        android:layout_alignParentTop="false"
+	        android:layout_below="@id/linkToDbxBtn"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginLeft="@dimen/LinkWithDbxMargin"
+	        android:layout_marginRight="@dimen/LinkWithDbxMargin" />
+	
+	</RelativeLayout>
+</ScrollView>

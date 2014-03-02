@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/itemRow"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/items_distance"
+        android:paddingLeft="@dimen/items_distance"
+        android:paddingTop="@dimen/items_distance"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

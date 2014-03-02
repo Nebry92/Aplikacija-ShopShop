@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <PreferenceCategory android:title="@string/dropbox">
+            <ListPreference android:key="syncFrequency" 
+			                 android:entries="@array/syncFrequency"
+			                 android:entryValues="@array/syncFrequencyValues" 
+			                 android:title="@string/pref_sync_frequency"
+			                 android:defaultValue="10" />
+        </PreferenceCategory>
+        
+</PreferenceScreen>
