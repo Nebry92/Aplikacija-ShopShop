@@ -1,6 +1,6 @@
 Made by : Krešimir Kuren, Karlo Rogina, Marin Nekiæ
 
-Aplikacija ShopShop za Android napravljena je po uzoru na Aplikaciju ShopShop za Iphone. Aplikacije imaju iste funkcionalnosi i meðusobno su kompatibilne. Omoguæuje stvaranje/izmjenu lista, stvaranje/izmjenu stvari na listi, te sinkronizaciju sa Dropbox raèunom.
+Aplikacija ShopShop za Android napravljena je po uzoru na Aplikaciju ShopShop za Iphone. Aplikacije imaju iste funkcionalnosi i meðusobno su kompatibilne. Omoguæuje stvaranje/izmjenu lista, stvaranje/izmjenu stvari na listi, te sinkronizaciju sa Dropbox raèunom. Aplikacija ima mnogo prostora za poboljšanja.
 
 Upute za instalaciju:
 
